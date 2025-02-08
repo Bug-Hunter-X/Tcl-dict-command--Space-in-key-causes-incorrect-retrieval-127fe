@@ -1,0 +1,2 @@
+# Tcl dict command: Space in key causes incorrect retrieval
+This repository demonstrates a subtle bug related to the Tcl 'dict' command and how it handles keys containing spaces. The original code incorrectly assumes that keys with spaces can be accessed directly. The solution demonstrates how to correctly handle such cases, ensuring that values associated with keys containing spaces are retrieved without errors.
